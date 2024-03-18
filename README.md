@@ -31,6 +31,6 @@ This can be packaged using `mvn clean package` which will generate a JAR file.
 Once the JAR is generated, this can be executed via:
 java -jar `{JAR_LOCATION}`
 
-`{JAR_LOCATION}` will be `target\student_result_mgmt-1.0-SNAPSHOT`
+If executed locally, `{JAR_LOCATION}` might be `target\student_result_mgmt-1.0-SNAPSHOT`
 
 This can also be run on hosted/managed services.
