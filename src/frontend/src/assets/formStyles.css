@@ -1,0 +1,62 @@
+.form-container {
+    width: 80%;
+    float:left;
+}
+
+.table-container {
+    width: 600px;
+}
+
+.form-row {
+    margin-bottom: 15px;
+    max-width: 200px;
+    display: block;
+}
+
+.form-column {
+    display: inline-block;
+}
+
+.form-column > label {
+    float: left;
+    text-align: left;
+    margin-bottom: 5px;
+    min-width: 60px;
+}
+
+.form-column > input, .form-column > select {
+    float: left;
+    text-align: left;
+    margin-bottom: 5px;
+    min-width: 150px;
+}
+
+button {
+    float: left;
+    background-color: dodgerblue;
+    font-weight: bolder;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table > tr > td, th {
+    text-align: left;
+    padding: 5px;
+}
+
+.rightAlign {
+    text-align: right;
+}
+
+.centerAlign {
+    text-align: center;
+}
+
+.delete {
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
