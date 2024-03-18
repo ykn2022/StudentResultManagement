@@ -20,7 +20,7 @@ This project makes use of node, npm, axios and vue-router. All will be included 
 This can be executed without packaging it, but it'll require starting the backend and frontend applications separately.
 
 - The Spring Boot application `MainApplication` can be executed standalone which will run on port 8080.
-- The Vue application can be run via terminal with `npm run serve', which will be accessible `localhost:8081'
+- The Vue application can be run via terminal with `npm run serve`, which will be accessible via `localhost:8081`
 
 ## Packaging 
 
